@@ -1,8 +1,4 @@
-# MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io
-
-![Demo App](https://i.ibb.co/f8y9vGS/Group-82.png)
-
-[Video Tutorial on Youtube](https://youtu.be/4GUVz2psWUg)
+# MERN Stack Project: Twitter Clone app.
 
 Some Features:
 
@@ -19,29 +15,49 @@ Some Features:
 -   🖼️ Edit Cover Image and Profile Image
 -   📷 Image Uploads using Cloudinary
 -   🔔 Send Notifications
--   🌐 Deployment
 -   ⏳ And much more!
 
-### Setup .env file
+### Reference and thanks to
 
-```js
-MONGO_URI=...
-PORT=...
-JWT_SECRET=...
-NODE_ENV=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-```
+@Burakorkmez-https://youtu.be/4GUVz2psWUg
 
-### Build the app
 
-```shell
-npm run build
-```
+### Project Features
 
-### Start the app
+- User account management, including features for signing in, and registering.
+- Automatic logout for logged-in users.
+- Validation processes for sign-in and registration forms.
+- Ability for users to search for hotels without logging in.
 
-```shell
-npm start
-```
+### Security Measures
+
+- Encryption of user passwords using the bcrypt algorithm for secure storage.
+- Use of JWT (JSON Web Tokens) for session management and security.
+- Proper configuration of Cors (Cross-Origin Resource Sharing) policies.
+- Use of express-validator for user input and form validation
+
+
+## Running the Application
+
+ **Frontend**:
+
+   - Open a new terminal and navigate to the `frontend` directory.
+   - Install dependencies: `npm install`.
+   - Start the frontend application: `npm run build`.
+
+  **Backend**:
+  
+   - Navigate to the `backend` directory.
+   - Install dependencies: `npm install`.
+   - Start the server: `npm start`.
+
+**TOOLS USED**:
+ <div align="left">
+  <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/git/F05032" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/netlify/00C7B7" height="40" alt="netlify logo"  />
+  <img width="12" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/72px-Google_Chrome_icon_%28February_2022%29.svg.png" height="40" alt="Google chrome logo"  />
+</div>
